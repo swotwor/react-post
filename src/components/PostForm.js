@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './UI/Button/Add'
 
 const PostForm = () => {
 	return (
@@ -6,7 +7,7 @@ const PostForm = () => {
 			<form>
 				<input type="text" />
 				<input type="text" />
-				<button></button>
+				<Button></Button>
 			</form>
 		</div>
 	)
